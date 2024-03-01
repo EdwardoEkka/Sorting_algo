@@ -13,6 +13,7 @@ int main() {
                 int temp=array[j];
                 array[j]=array[currI];
                 array[currI]=temp;
+                currI=j;
                 j--;
         }
     }
